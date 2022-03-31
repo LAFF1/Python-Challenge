@@ -1,2 +1,8 @@
 # Python-Challenge
-Python Challenges PyRank and PyPoll
+Py Me Up, Charlie
+
+There are two modules included in Python-Challenge
+
+PyBank and PyPoll 
+
+

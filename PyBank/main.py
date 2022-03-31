@@ -24,8 +24,8 @@ Great_dec = 0
 with open(path) as budget_data:
     budget = csv.reader(budget_data, delimiter=',')
 
-    # Skip header row 
-    next(budget)
+    # Skip header row  ... store per instructions 
+    Header = next(budget)
         
     # Iterate through each row/line of budget_data
     for row in budget:

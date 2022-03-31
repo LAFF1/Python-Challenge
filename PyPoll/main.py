@@ -17,7 +17,7 @@ Votes = {}
 with open(path) as election_data:
     ed = csv.reader(election_data, delimiter=',')
 
-    next(ed) # Skip header row 
+    Header =  next(ed) # Skip header row 
     first = True # Set flag for first row 
  
     # Iterate through file and store results in dictionary Votes
